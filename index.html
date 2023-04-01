@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/style.css" />
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <header>
+            <h1>Tic Tac Toe</h1>
+        </header>
+        <main class="homePage">
+            <div class="select-container">
+                <div class="img-container">
+                    <img src="/assets/images/player2-img.png" alt="two person playing tictactoe" />
+                    <button class="playerBtn mode" value="player">player vs player</button>
+                </div>
+                <div class="img-container">
+                    <img src="/assets/images/bot-img.png" alt="angry bot" />
+                    <button class="botBtn mode" value="bot">player vs bot</button>
+                </div>
+            </div>
+            <h1>Choose a game mode</h1>
+        </main>
+
+        <div class="gameScreen displayNone">
+            <div class="gameScore">
+                <div>
+                    <p>Player 1: <span class="score">0</span></p>
+                </div>
+                <div>
+                    <p>Player 2: <span class="score">0</span></p>
+                </div>
+            </div>
+            <div class="gameBoard">
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+                <div class="cell"><p></p></div>
+            </div>
+            <p class="message"></p>
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
